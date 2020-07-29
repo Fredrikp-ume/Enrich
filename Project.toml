@@ -1,0 +1,19 @@
+name = "Enrich"
+uuid = "f70de441-5f44-42ce-9e82-a6666bac77dd"
+authors = ["Fredrik Pettersson <fredrik.pettersson@moffitt.org>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[compat]
+julia = "^1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
